@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(79, 79, 237);
+}
+h1{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+p{
+    font-size: 27px;
+    margin-left: 50px;
+}
+.calculadora{
+    background-color: rgb(52, 176, 204);
+    height: 630px;
+    width: 412px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#campo-da-tela {
+    height: 100px;
+    width: 404px;
+    margin: 0px 0px;
+    text-align: right;
+    font-size: 50px;   
+}
+.button{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    background-color: #a6a6a6;
+    color: white;
+    border: solid white 1px;
+    margin: 2.5px 0px;
+    font-size: 50px;
+}
+.button:hover{
+    background-color: rgb(68, 120, 120);
+}

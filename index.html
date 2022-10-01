@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>MINHA CALCULADORA</h1>
+     <p>Aprendendo HTML, CSS E JS...</p>
+    <div class="calculadora">
+        <input type="text" name="tela" id="campo-da-tela">
+        <div class="buttons-container">
+            <button class="button" onclick="adicionar_parametro('(')">(</button>
+            <button class="button" onclick="adicionar_parametro(')')">)</button>
+            <button class="button" onclick="porcentagem()">%</button>
+            <button class="button" onclick="AC()">AC</button>
+
+            <button class="button" onclick="adicionar_parametro(7)">7</button>
+            <button class="button" onclick="adicionar_parametro(8)">8</button>
+            <button class="button" onclick="adicionar_parametro(9)">9</button>
+            <button class="button" onclick="adicionar_parametro('/')">/</button>
+
+            <button class="button" onclick="adicionar_parametro(4)">4</button>
+            <button class="button" onclick="adicionar_parametro(5)">5</button>
+            <button class="button" onclick="adicionar_parametro(6)">6</button>
+            <button class="button" onclick="adicionar_parametro('*')">*</button>
+
+            <button class="button" onclick="adicionar_parametro(1)">1</button>
+            <button class="button" onclick="adicionar_parametro(2)">2</button>
+            <button class="button" onclick="adicionar_parametro(3)">3</button>
+            <button class="button" onclick="adicionar_parametro('-')">-</button>
+
+            <button class="button" onclick="adicionar_parametro(0)">0</button>
+            <button class="button" onclick="adicionar_parametro('.')">.</button>
+            <button class="button" onclick="calculando()">=</button>
+            <button class="button" onclick="adicionar_parametro('+')">+</button>
+
+        </div>
+    </div>
+</body>
+</html>
